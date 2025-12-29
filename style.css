@@ -1,12 +1,25 @@
-.welcome {
-border:solid;
-width:250px;
-background:rgb(222, 222, 237);
-background-blend-mode:darken;
-border-radius: 15px;
-padding:18px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+#topbar {
+    display: flex;
+    background-color: aliceblue;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+}
+
+#welcome {
+    border:solid;
+    width:250px;
+    background:rgb(222, 222, 237);
+    background-blend-mode:darken;
+    border-radius: 15px;
+    padding:15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#welcomeheader {
+    background-color: rgb(215, 250, 249);
+    border-radius: 35px;
+    text-align: center;
 }
