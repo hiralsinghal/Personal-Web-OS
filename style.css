@@ -19,7 +19,9 @@
 }
 
 #welcomeheader {
-    background-color: rgb(215, 250, 249);
-    border-radius: 35px;
+    border-radius: 30px;
     text-align: center;
+    width: 250px;
+    padding: auto;
+    font-size: 18px;
 }
